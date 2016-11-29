@@ -1,0 +1,4 @@
+( ->
+  alert "enlazado oh siii"
+
+)()
