@@ -1,0 +1,33 @@
+// _Base.scss, es una base General una fusion de Normalize y ED-Grid
+*,
+*:before,
+*:after{
+	box-sizing: border-box; 
+	margin:0; padding:0;
+}
+
+html{
+	font-size:62.5%;/*10px*/
+	-ms-text-size-adjust: 100%;      // normalize
+  -webkit-text-size-adjust: 100%;  // normalize
+}
+
+body{
+	font-family:'Montserrat', sans-serif;
+	font-size:1.8rem;/*18px*/
+}
+
+// Imágenes responsive
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+	list-style:none;
+}
